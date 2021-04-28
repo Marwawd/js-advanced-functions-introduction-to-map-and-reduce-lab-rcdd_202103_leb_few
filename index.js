@@ -21,9 +21,7 @@ reduceToTotal([1,2,3]);
 reduceToTotal([1,2,3],100);
 
 function reduceToAllTrue(sourceArray){
-sourceArray.reduce((a, c) =>
-{  if( typeof(c) === 'boolean' && c === true) return true;
-  else return false;}
-)};
+val1=sourceArray.reduce((a, c) => Boolean(c));
+return val1;}
 reduceToAllTrue([1, 2, true, "razmatazz"]);
 function reduceToAnyTrue(sourceArray){}
