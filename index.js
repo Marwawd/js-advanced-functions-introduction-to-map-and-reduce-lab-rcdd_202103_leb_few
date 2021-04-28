@@ -29,7 +29,9 @@ reduceToAllTrue([1, 2, true, "razmatazz", false]);
 
 function reduceToAnyTrue(sourceArray){
 //  let nBoolean= new Boolean('false');
-   return sourceArray.reduce((a, c) => a+Boolean(c));
+   let t= sourceArray.reduce((a, c) => a+Boolean(c));
+   if(t==1){return true;}
+   else return false;
 
   }
 reduceToAnyTrue([ false, null, null, null, true]);
