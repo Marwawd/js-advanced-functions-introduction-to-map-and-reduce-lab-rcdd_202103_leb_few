@@ -32,4 +32,4 @@ function reduceToAnyTrue(sourceArray){
    return sourceArray.reduce((a, c) => nBoolean(c));
 
   }
-function reduceToAnyTrue([ false, null, null, null, true]);
+reduceToAnyTrue([ false, null, null, null, true]);
