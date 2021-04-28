@@ -24,4 +24,11 @@ function reduceToAllTrue(sourceArray){
 return sourceArray.reduce((a, c) => Boolean(c));
 }
 reduceToAllTrue([1, 2, true, "razmatazz"]);
-function reduceToAnyTrue(sourceArray){}
+reduceToAllTrue([1, 2, true, "razmatazz", false]);
+
+
+function reduceToAnyTrue(sourceArray){
+   return sourceArray.reduce((a, c) => !Boolean(c));
+
+  }
+}
