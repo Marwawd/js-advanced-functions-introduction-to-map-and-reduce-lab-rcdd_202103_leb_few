@@ -35,5 +35,4 @@ function reduceToAnyTrue(sourceArray){
 
   }
 reduceToAnyTrue([ false, null, null, null, true]);
-
 reduceToAnyTrue([ false, null, null, null]);
