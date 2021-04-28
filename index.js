@@ -31,4 +31,4 @@ function reduceToAnyTrue(sourceArray){
    return sourceArray.reduce((a, c) => !Boolean(c));
 
   }
-}
+function reduceToAnyTrue([ false, null, null, null, true]);
